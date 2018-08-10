@@ -1,11 +1,10 @@
 # 登录 login
 
-- 注册（register）需要返回同样的数据，以便于自动登录
-- 这个接口原来已经有了，需要新增字段
+- 这个接口原来已经有了，roles这个字段会从[获取用户信息](./getUserInfo.md)获取，这里可以不用返回。
 
 ## 返回数据
 
-- 添加字段：province、city、avatar、level、coin、integral、fans等
+- 添加字段：province、city、avatar、level等
 - 修改字段：roles。对象列表修改为单一对象。
 
         {
@@ -15,17 +14,12 @@
             "head": null,
             "mobile": '',
             "name": "",
-            'level': 1, // 用户等级，1，2，3，4，5，6
             "objectId": 1, // 用户id
             "passScore": 80,
             'province': '', // 省份
             'city': '', // 市
             'region': '', // 区
             "roleType": "",
-            'avatar': '', // 头像路径 120px左右那个图
-            "coin": int", // 益币数量
-            "integral": int", // 积分
-            "fans": int", // 粉丝数
             "roles": {
                 "objectId": int, // 角色id
                 "remark": "",

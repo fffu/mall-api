@@ -15,31 +15,29 @@
 ## 返回数据
 
     {
-        'content':{
-            'project_list': [
-                {
-                    'project_id': 工地id
-                    'village': // 小区名称
-                    'costomer_name': // 业主姓名
-                    'area': // 面积
-                    'unit': // 户型
-                    'style': // 风格
-                    'complete_status': // 施工状态
-                    'province': // 省
-                    'city': // 市
-                    'region': // 区
-                    'address': // 地址
-                    'cover':{ //封面图
-                        'ori_path': // 原始图路径
-                        'big_path': // 大图路径
-                        'mid_path': // 中图路径
-                        'sml_path': // 小图路径
-                    }
+        'project_list': [
+            {
+                'project_id': 工地id
+                'village': // 小区名称
+                'costomer_name': // 业主姓名
+                'area': // 面积
+                'unit': // 户型
+                'style': // 风格
+                'complete_status': // 施工状态
+                'province': // 省
+                'city': // 市
+                'region': // 区
+                'address': // 地址
+                'cover':{ //封面图
+                    'ori_path': // 原始图路径
+                    'big_path': // 大图路径
+                    'mid_path': // 中图路径
+                    'sml_path': // 小图路径
                 }
-                // ...
-            ],
-            'page_total': // 数据总条数
-        },
+            }
+            // ...
+        ],
+        "item_total": int, // 数据总条数
         "message": "数据获取成功!",
         "status": 200
     }

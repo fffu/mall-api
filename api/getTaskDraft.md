@@ -12,32 +12,30 @@
 ## 返回数据
 
     {
-        'content': {
-            'content': [
-                {
-                    'processID': //
-                    'designerID': //
-                    'designer_name': //
-                    '3durl': //
-                    'explain': //
-                    'solution': [
-                        {
-                            'image':{
-                                'small_path': String, // 图片路径
-                                'medium_path': String, // 图片路径
-                                'big_path': String, // 图片路径
-                            }
-                            'part_name': // 房间名称
-                            'explain': // 设计描述
-                        },
-                        // ...
-                    ],
-                    'examine_time': //
-                    'useraction':  // 用户处理情况
-                }
-                // ...
-            ]
-        },
+        'content': [
+            {
+                'processID': //
+                'designerID': //
+                'designer_name': //
+                '3durl': //
+                'explain': //
+                'solution': [
+                    {
+                        'image':{
+                            'small_path': String, // 图片路径
+                            'medium_path': String, // 图片路径
+                            'big_path': String, // 图片路径
+                        }
+                        'part_name': // 房间名称
+                        'explain': // 设计描述
+                    },
+                    // ...
+                ],
+                'examine_time': //
+                'useraction':  // 用户处理情况
+            }
+            // ...
+        ]
         "message": "详情获取成功!",
         "status": 200
     }

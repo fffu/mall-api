@@ -19,22 +19,17 @@
 ## 返回数据
 
     {
-        'action_list': [
+        "promotion_list": [
             {
-                'id': // 活动id
-                'title': // 活动标题
-                'discription': // 活动描述
-                'url': // 活动详情页
-                'cover': { // 封面图
-                    'ori_path': // 原始图路径
-                    'big_path': // 大图路径
-                    'mid_path': // 中图路径
-                    'sml_path': // 小图路径
-                }
+                "id": "", // 活动id
+                "title": "", // 活动标题
+                "discription": "", // 活动描述
+                "href": "", // 活动详情页地址
+                "cover": "", // 封面图路径
             },
             // ...
         ],
-        'page_total': // 总页数
+        "item_total": "@natural(20,999)", // 数据总条数
         "message": "列表获取成功!",
         "status": 200
     }

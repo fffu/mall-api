@@ -58,7 +58,7 @@
             },
             // ...
         ],
-        'page_total': // 数据总条数
+        "item_total": int, // 数据总条数
         "message": "数据获取成功!",
         "status": 200
     }

@@ -51,7 +51,7 @@
                 ]
             }
         ]
-        "page_total": int, //数据总条数
+        "item_total": int, // 数据总条数
         "message": "列表获取成功",
         "status": 200
     }
