@@ -22,39 +22,24 @@
     {
         'company_list': [
             {
-                'id': // 公司ID
-                'name': // 公司名
-                'credit_level': // 信用级别
-                'case_num': // 案例数
-                'project_num': // 工地数
-                'comment_num': // 公司评论数
+                'id': int, // 公司ID
+                'name': "", // 公司名
+                "level": int, // 公司等级，1，2，3，4，5，6
+                'design_case': int, // 设计案例数
+                'project_case': int, // 施工案列数
+                'aftermarket_case': int, // 售后案列数
+                'credit_level': int, // 信用级别
                 'location': {
-                    'province': // 省
-                    'city': // 市
-                    'region': // 区
-                    'address': // 地址
-                    'longitude': // 经度
-                    'latitude': // 纬度
-                }
-                'phone': // 公司电话
-                'consult_num': // 公司咨询量
-                'praise': // 口碑值
-                'design_score': // 设计分
-                'service_score': // 服务分
-                'quality_score': // 工程质量分
-                'project_score': // 工地分
-                'logo': { // logo图
-                    'ori_path': // 原始图路径
-                    'big_path': // 大图路径
-                    'mid_path': // 中图路径
-                    'sml_path': // 小图路径
-                }，
-                'cover': { // 公司首页封面图
-                    'ori_path': // 原始图路径
-                    'big_path': // 大图路径
-                    'mid_path': // 中图路径
-                    'sml_path': // 小图路径
-                }
+                    'province': "", // 省
+                    'city': "", // 市
+                    'region': "", // 区
+                    'address': "", // 地址
+                    'longitude': "", // 经度
+                    'latitude': "", // 纬度
+                },
+                'phone': "", // 公司电话
+                'praise': int, // 口碑值
+                "avatar": "", // 头像路径 120px左右那个图
             },
             // ...
         ],

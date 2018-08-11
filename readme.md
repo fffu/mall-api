@@ -46,6 +46,7 @@ updates at the bottom, 更新日志在后面
 
 ## 保持更新，请注意变更情况
 
+- 0811 修改[获取公司列表](./api/getCompanyList.md)
 - 0811 修改[登录/注册](./api/login.md)的说明
 - 0810 [(平台首页)推荐设计师列表](./api/getIndexDesignerList.md) 更改返回数据模板
 - 0810 所有接口的 数据总条数 健 "page_total" 改为 "item_total"
