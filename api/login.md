@@ -1,11 +1,9 @@
-# 登录 login
+# 登录/注册 login/register
 
-- 这个接口原来已经有了，roles这个字段会从[获取用户信息](./getUserInfo.md)获取，这里可以不用返回。
+- 这个接口原来已经有了，如果在使用中，可以保留，不进行修改。
+- register接口同样返回，以实现自动登录。
 
 ## 返回数据
-
-- 添加字段：province、city、avatar、level等
-- 修改字段：roles。对象列表修改为单一对象。
 
         {
             "easemobId": "",
