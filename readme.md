@@ -1,6 +1,7 @@
 # 益装网api需求
 
-updates at the bottom, 更新日志在后面
+updates at the bottom, 更新日志在后面  
+**避免浪费效率，建议先实现更新过的文档，没更新过的文档大都不完整或有缺陷**
 
 ## 目录
 
@@ -46,6 +47,7 @@ updates at the bottom, 更新日志在后面
 
 ## 保持更新，请注意变更情况
 
+- 0812 修改[获取公司列表](./api/getCompanyList.md)
 - 0811 修改[获取公司列表](./api/getCompanyList.md)
 - 0811 修改[登录/注册](./api/login.md)的说明
 - 0810 [(平台首页)推荐设计师列表](./api/getIndexDesignerList.md) 更改返回数据模板

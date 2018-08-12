@@ -3,10 +3,10 @@
 ## 参数
 
     {
+        "location_id": int // 地区id
         'query': {
             'keyword': // 用户查询的关键字，默认为空。
             'service_type': // 家装公司、工装公司、软装公司
-            'region': // 区
             'credit_level': // 信用等级
             'ensure': // 装修保障
             'isrecommend': // 默认空；1为推荐的公司
