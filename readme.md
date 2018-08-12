@@ -44,9 +44,12 @@ updates at the bottom, 更新日志在后面
 - [(公司)提交活动操作](./api/createPromotion.md): createPromotion
 - [(公司)上传活动封面图](./api/uploadCover.md): uploadCover
 - [获取用户信息](./api/getUserInfo.md): getUserInfo
+- [员工离职申请](./api/laborTurnover.md): laborTurnover
+- [公司审核员工离职申请](./api/auditLaborTurnover.md): auditLaborTurnover
 
 ## 保持更新，请注意变更情况
-
+- 0812 添加[公司审核员工离职申请](./api/auditLaborTurnover.md)接口
+- 0812 添加[员工离职申请](./api/laborTurnover.md)接口
 - 0812 修改[获取公司列表](./api/getCompanyList.md)
 - 0811 修改[获取公司列表](./api/getCompanyList.md)
 - 0811 修改[登录/注册](./api/login.md)的说明
