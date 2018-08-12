@@ -26,6 +26,7 @@ updates at the bottom, 更新日志在后面
 - [(公司)员工操作](./api/manageStaff.md): manageStaff
 - [(公司)查看工地列表](./api/getCompanyProjectList.md): getCompanyProjectList
 - [获取公司列表](./api/getCompanyList.md): getCompanyList
+- [获取公司简要信息](./api/getCompanyProfile.md): getCompanyProfile，上面接口的单个版
 - [查看公司设计师列表](./api/getCompanyDesignerList.md): getCompanyDesignerList
 - [获取装修公司活动列表](./api/getPromotionList.md): getPromotionList
 - [获取在建工地列表](./api/getWorkingProjectList.md): getWorkingProjectList
@@ -48,8 +49,10 @@ updates at the bottom, 更新日志在后面
 - [公司审核员工离职申请](./api/auditLaborTurnover.md): auditLaborTurnover
 
 ## 保持更新，请注意变更情况
+
 - 0812 添加[公司审核员工离职申请](./api/auditLaborTurnover.md)接口
 - 0812 添加[员工离职申请](./api/laborTurnover.md)接口
+- 0812 新增[获取公司简要信息](./api/getCompanyProfile.md): getCompanyProfile，[获取公司列表](./getCompanyList.md) 的单个版
 - 0812 修改[获取公司列表](./api/getCompanyList.md)
 - 0811 修改[获取公司列表](./api/getCompanyList.md)
 - 0811 修改[登录/注册](./api/login.md)的说明
