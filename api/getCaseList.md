@@ -18,35 +18,28 @@
 ## 返回数据
 
     {
-        'case_list': [
+        "case_list": [
             {
-                'id': // 案例id
-                'name': // 案例name
-                'style': // 案例风格
-                'unit': // 案例户型
-                'area': // 面积
-                'cost': // 案例造价
-                'funs_num': // 赞数
-                'cover': { // 封面图
-                    'ori_path': // 原始图路径
-                    'big_path': // 大图路径
-                    'mid_path': // 中图路径
-                    'sml_path': // 小图路径
+                "id": "", // 案例id
+                "name": "", // 案例name,也许是小区名
+                "style": "", // 案例风格
+                "unit": "", // 案例户型
+                "area": "", // 面积
+                "cost": "", // 案例造价
+                "funs_num": "", // 赞数
+                "cover": { // 封面图
+                    "big": "", // 大图PC
+                    "mid": "", // 中图wap
                 },
-                'designer':{ // 设计师
-                    'id': //
-                    'name': //
-                    'avatar': { // 照片
-                        'ori_path': // 原始图路径
-                        'big_path': // 大图路径
-                        'mid_path': // 中图路径
-                        'sml_path': // 小图路径
-                    },
+                "designer": { // 设计师
+                    "id": "", //
+                    "name": "", //
+                    "avatar": "", // 头像路径 120px左右那个图
                 }
             }
             // ...
         ],
-        'item_total': //数据总条数
+        "item_total": int,//数据总条数
         "message": "列表获取成功!",
         "status": 200
     }

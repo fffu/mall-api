@@ -12,30 +12,18 @@
 ## 返回数据
 
     {
-        'staff_list':[
+        "stuff_list|8": [
             {
-                'name': // 设计师名字
-                'id': // 设计师id
-                'level': // 设计师等级
-                'title': // 设计师称谓；高级设计师、中级设计师、资深设计师...
-                'isincumbent': 1||2 // 1:入职；2：在职；3.离职。
-                'location': {
-                    'province': // 省
-                    'city': // 市
-                    'region': // 区
-                }
-                'work_years': // 从业年限
-                'good_style': // 擅长风格
-                'photo':{
-                    'ori_path': // 原始图路径
-                    'big_path': // 大图路径
-                    'mid_path': // 中图路径
-                    'sml_path': // 小图路径
-                }
-            },
-            // ...
+                "id": int, // id
+                "name": "", // 名字
+                "role_id": int, // 角色id
+                "level": int, // 等级
+                "work_years": int, // 从业年限
+                "photo": "", // 照片路径，大图，800px左右那张图
+                "avatar": "", // 头像路径 120px
+            }
         ],
-        "item_total": "@natural(20,999)", // 数据总条数
+        "item_total": int, // 数据总条数
         "message": "数据获取成功!",
         "status": 200
     }

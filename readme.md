@@ -27,7 +27,6 @@ updates at the bottom, 更新日志在后面
 - [(公司)查看工地列表](./api/getCompanyProjectList.md): getCompanyProjectList
 - [获取公司列表](./api/getCompanyList.md): getCompanyList
 - [获取公司简要信息](./api/getCompanyProfile.md): getCompanyProfile，上面接口的单个版
-- [查看公司设计师列表](./api/getCompanyDesignerList.md): getCompanyDesignerList
 - [获取装修公司活动列表](./api/getPromotionList.md): getPromotionList
 - [获取在建工地列表](./api/getWorkingProjectList.md): getWorkingProjectList
 - [喜欢点赞](./api/like.md): like
@@ -35,8 +34,8 @@ updates at the bottom, 更新日志在后面
 - [(平台/公司/设计师)获取案例列表](./api/getCaseList.md): getCaseList
 - [获取装修公司详情](./api/getCompanyDetail.md): getCompanyDetail
 - [获取设计师详情](./api/getDesignerDetail.md): getDesignerDetail
-- [获取公司评价](./api/getCommentList.md): getCommentList
-- [非业主评论(工地、设计、案例)](./api/discuss.md): discuss
+- [吐槽](./api/discuss.md): discuss
+- [获取吐槽](./api/getDiscussList.md): getDiscussList
 - [所有用户提交认证操作](./api/certificate.md): certificate
 - [认证专用上传图片](./api/certificateUpload.md): certificateUpload
 - [充值](./api/recharge.md): recharge
@@ -48,6 +47,7 @@ updates at the bottom, 更新日志在后面
 
 ## 保持更新，请注意变更情况
 
+- 0814 更新[(平台/公司/设计师)获取案例列表](./api/getCaseList.md)、[获取在建工地列表](./api/getWorkingProjectList.md)、[(公司)查看员工列表](./api/getStaffList.md)、[获取吐槽](./api/getDiscussList.md)
 - 0812 新增[获取公司简要信息](./api/getCompanyProfile.md): getCompanyProfile，[获取公司列表](./getCompanyList.md) 的单个版
 - 0812 修改[获取公司列表](./api/getCompanyList.md)
 - 0811 修改[获取公司列表](./api/getCompanyList.md)
