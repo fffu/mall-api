@@ -20,7 +20,8 @@
     {
         "project_list": [
             {
-                "project_id": id, //工地id
+                "project_id": id, // 工地id
+                "name": "", // 工地名
                 "village": "", // 小区名称
                 "costomer_name": "", // 业主姓名
                 "designer": {
@@ -38,6 +39,7 @@
                 "area": int, // 面积
                 "unit": "", // 户型
                 "style": "", // 风格
+                "house_type": "", // "跃层"||"平层"||"别墅"
                 "cost": int, // 造价
                 "complete_status": "", // 施工状态
                 "current_step": int, // 当前施工进度（大阶段nodeid）

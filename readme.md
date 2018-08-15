@@ -49,6 +49,8 @@ updates at the bottom, 更新日志在后面
 
 ## 保持更新，请注意变更情况
 
+- [(平台/公司/设计师)获取案例列表](./api/getCaseList.md)、[获取在建工地列表](./api/getWorkingProjectList.md)增加字段："house_type"(跃层"||"平层"||"别墅)、"name"工地名
+- 0815 [获取装修公司活动列表](./api/getPromotionList.md)增加有效期"validity"、阅读量"view_num"
 - 0814 更新[(平台/公司/设计师)获取案例列表](./api/getCaseList.md)、[获取在建工地列表](./api/getWorkingProjectList.md)、[(公司)查看员工列表](./api/getStaffList.md)、[获取吐槽](./api/getDiscussList.md)
 - 0812 添加[公司审核员工离职申请](./api/auditLaborTurnover.md)接口
 - 0812 添加[员工离职申请](./api/laborTurnover.md)接口

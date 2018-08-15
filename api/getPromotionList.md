@@ -9,7 +9,7 @@
         'keyword': // 用户查询的关键字，默认为空。
         'mark': // 默认为空 ，显示位置。
         'isrecommend': // 默认为空，获取全部；1为获取推荐的。
-        'valid': // 默认为空，获取全部。1为获取有效期内的，2为过期的。
+        'isvalid': // 默认为空，获取全部。1为获取有效期内的，2为过期的。
         'ishot': // 默认为空，获取全部。1为获取hot的。
         'isindex': // 默认为空，获取全部。1为获取index的。（平台的字段）
         'page': // 页码
@@ -26,10 +26,16 @@
                 "discription": "", // 活动描述
                 "href": "", // 活动详情页地址
                 "cover": "", // 封面图路径
+                "validity": { // 有效期
+                    "start": int, // 开始时间
+                    "end": int, // 结束时间
+                    "isValid": Boolen // 是否在有效期内
+                }
+                "view_num": int // 阅读量
             },
             // ...
         ],
-        "item_total": "@natural(20,999)", // 数据总条数
+        "item_total": int, // 数据总条数
         "message": "列表获取成功!",
         "status": 200
     }
