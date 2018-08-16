@@ -22,6 +22,8 @@
                 "project_case": int, // 工地案例数量
                 "level": int, // 等级
                 "work_years": int, // 从业年限
+                "fans": int, // 粉丝量
+                "view": int, // 浏览量
                 "photo": "", // 照片路径，大图，800px左右那张图
                 "avatar": "", // 头像路径 120px
                 "recommend_case": [ // 推荐案例，每个设计师、工长等都有一组推荐案例，设计师则设计案列，工长则工地案例
