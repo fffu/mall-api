@@ -12,6 +12,8 @@
         "content": {
             "id": int, // 员工id
             "name": "", // 员工名字
+            "role_id": int, // 角色id
+            "role_name": "", // 角色名：首席设计师等，需要查积分表配置表
             "phone": "", // 员工电话
             "level": int, // 员工等级
             "location": {
@@ -23,7 +25,8 @@
                 "latitude": "", // 纬度
             },
             "score": float, // 评分
-            "case_num": int, // 案例数
+            "design_case": int, // 设计案例数
+            "project_case": int, // 施工案列数
             "fans_num": int, // 人气数
             "work_years": int, // 从业年限
             "education": "", // 学历
