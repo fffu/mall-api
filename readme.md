@@ -34,7 +34,7 @@ updates at the bottom, 更新日志在后面
 - [(平台/公司/设计师)获取案例列表](./api/getCaseList.md): getCaseList
 - [获取案例详情](./api/getCaseDetail.md): getCaseDetail
 - [获取装修公司详情](./api/getCompanyDetail.md): getCompanyDetail
-- [获取设计师详情](./api/getDesignerDetail.md): getDesignerDetail
+- [获取员工详情](./api/getStaffDetail.md): getStaffDetail
 - [吐槽](./api/discuss.md): discuss
 - [获取吐槽](./api/getDiscussList.md): getDiscussList
 - [所有用户提交认证操作](./api/certificate.md): certificate
@@ -50,6 +50,8 @@ updates at the bottom, 更新日志在后面
 
 ## 保持更新，请注意变更情况
 
+- 0817 修改[(平台/公司/设计师)获取案例列表](./api/getCaseList.md)
+- 0817 更新[获取员工详情](./api/getStaffDetail.md)
 - 0816 新增[获取案例详情](./api/getCaseDetail.md)，更改[(公司)查看员工列表](./api/getStaffList.md)(新增字段)
 - [(平台/公司/设计师)获取案例列表](./api/getCaseList.md)、[获取在建工地列表](./api/getWorkingProjectList.md)增加字段："house_type"(跃层"||"平层"||"别墅)、"name"工地名
 - 0815 [获取装修公司活动列表](./api/getPromotionList.md)增加有效期"validity"、阅读量"view_num"

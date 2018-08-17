@@ -36,7 +36,17 @@
                     "id": "", //
                     "name": "", //
                     "avatar": "", // 头像路径 120px左右那个图
-                }
+                },
+                "room_list|8": [ // 房间列表
+                    {
+                        "name": /客厅|餐厅|卧室[1-8]|儿童房[1-3]|书房|玄关|厨房|卫生间[1-3]|阳台[1-3]/, // 房间名称 客厅，餐厅，卧室2、儿童房、玄关、书房、厨房，卫生间，阳台等
+                        "explain": "@cparagraph", // 说明
+                        "photo": { // 图片
+                            "big": "https://source.unsplash.com/random/800x420?@natural(0,5)", // 大图PC
+                            "mid": "https://source.unsplash.com/random/375x150?@natural(0,5)", // 中途wap
+                        }
+                    }
+                ]
             }
             // ...
         ],
