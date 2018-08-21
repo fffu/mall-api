@@ -11,8 +11,8 @@ updates at the bottom, 更新日志在后面
 - [创建订单](./api/createTask.md): createTask
 - [用户完善订单信息(未定)](./api/improveTask.md): improveTask
 - [(任务大厅)获取订单列表](./api/getTaskList.md): getTaskList
-- [(任务大厅)获取订单详情](./api/getTaskDetail.md): getTaskDetail
 - [(设计师/用户/公司公用)获取我的订单列表](./api/getMyTaskList.md): getMyTaskList, 和上面这个接口返回同样数据，能合并就合并
+- [(任务大厅)获取订单详情](./api/getTaskDetail.md): getTaskDetail
 - [(设计师)抢单](./api/grabTask.md): grabTask
 - [提交方案](./api/commitDraft.md): commitDraft
 - [(设计师)获取订单进度详情](./api/getDesignerTaskProcess.md): getDesignerTaskProcess
@@ -50,6 +50,7 @@ updates at the bottom, 更新日志在后面
 
 ## 保持更新，请注意变更情况
 
+- 0821 修改[获取我的订单列表](./api/getMyTaskList.md)的查询字段及逻辑说明
 - 0818 更新[获取公司资料信息](./api/getCompanyDetail.md)
 - 0817 修改[(平台/公司/设计师)获取案例列表](./api/getCaseList.md)
 - 0817 更新[获取员工详情](./api/getStaffDetail.md)
