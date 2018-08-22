@@ -1,5 +1,7 @@
 # （平台/公司/设计师）获取在建工地列表: getWorkingProjectList
 
+- 08-17 增加字段："house_type"(跃层"||"平层"||"别墅)、"name"工地名
+
 ## 参数
 
     {

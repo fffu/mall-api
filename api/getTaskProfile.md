@@ -1,4 +1,4 @@
-# （任务大厅）获取订单详情: getTaskDetail
+# （任务大厅）获取订单详情: getTaskProfile
 
 - 用户任务大厅选择单个订单了解详情
 

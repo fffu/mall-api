@@ -1,6 +1,7 @@
 # 获取装修公司活动列表: getPromotionList
 
 - 前端页面展示最新装修公司活动的推荐列表
+- 08-15 增加有效期"validity"、阅读量"view_num"
 
 ## 参数
 

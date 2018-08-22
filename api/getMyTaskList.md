@@ -1,6 +1,11 @@
-# （设计师，用户，公司公用）获取订单列表: getMyTaskList
+# （设计师，用户，公司公用）获取我的订单列表: getMyTaskList
 
 - 个人中心，查看我的订单
+- 08-21 修改查询字段及逻辑说明
+- 08-09 getMyTaskList(获取我的订单)增加返回字段：
+  - max-need 最大抢单人数
+  - designer[n].level 设计师的等级
+  - getTaskList(任务大厅拉取订单列表)更改为返回getMyTaskList(获取我的订单)一样的数据
 
 ## 参数
 
