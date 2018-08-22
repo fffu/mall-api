@@ -9,13 +9,14 @@
 
 - 获取获取订单信息
 
-  - [(任务大厅)获取订单列表](./api/getTaskList.md): getTaskList
-  - 08-21 [获取我的订单列表](./api/getMyTaskList.md): getMyTaskList, 和上面这个接口返回同样数据，能合并就合并
-  - 08-22 [获取订单详情](./api/getTaskProfile.md): getTaskProfile
-  - [(设计师)获取订单进度详情](./api/getDesignerTaskProcess.md): getDesignerTaskProcess
+  - 08-22 [(任务大厅)获取订单列表](./api/getTaskList.md): getTaskList
+  - 08-22 [获取我的订单列表](./api/getMyTaskList.md): getMyTaskList
+  - 08-22 [获取订单详情](./api/getTaskProfile.md): getTaskProfile  
+    以上三个返回了同样的数据模板，不同的是返回 **多条** 或 **一条**
+  <!-- - [(设计师)获取订单进度详情](./api/getDesignerTaskProcess.md): getDesignerTaskProcess -->
   - [(设计师)获取订单设计详情](./api/getDesignerTaskDraft.md): getDesignerTaskDraft
-  - [(用户)获取订单设计详情](./api/getTaskDraft.md): getTaskDraft
-  - [(公司)查看订单详情](./api/getCompanyTaskDetail.md): getCompanyTaskDetail
+  <!-- - [(用户)获取订单设计详情](./api/getTaskDraft.md): getTaskDraft -->
+  <!-- - [(公司)查看订单详情](./api/getCompanyTaskDetail.md): getCompanyTaskDetail -->
 
 - 获取用户信息相关
 

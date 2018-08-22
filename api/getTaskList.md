@@ -1,6 +1,7 @@
 # （任务大厅）获取订单列表 getTaskList
 
 - 任务大厅展示
+- 08-22 增加返回字段step_title
 
 ## 参数
 
@@ -36,7 +37,8 @@
                 'create_tiem': int,// 创建时间
                 'remain_time': int,// 订单剩余时间戳
                 'step_num': 1, // 当前步骤数
-                'step_discript': '', // 当前步骤描述
+                "step_title": "", // 当前步骤标题
+                "step_discript": "", // 当前步骤描述，需要判断用户
                 'layout_pic': { // 户型图路径
                     'ori_path': '', // 原
                     'big_path': '', // 大
