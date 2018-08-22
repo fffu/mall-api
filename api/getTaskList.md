@@ -1,7 +1,7 @@
 # （任务大厅）获取订单列表 getTaskList
 
 - 任务大厅展示
-- 08-22 增加返回字段step_title
+- 08-22 增加返回字段step_title，以及设计师的进度字段
 
 ## 参数
 
@@ -36,9 +36,9 @@
                 'release_time': int,// 审核通过时间
                 'create_tiem': int,// 创建时间
                 'remain_time': int,// 订单剩余时间戳
-                'step_num': 1, // 当前步骤数
+                "step_id": 1, // 当前步骤id，订单表
                 "step_title": "", // 当前步骤标题
-                "step_discript": "", // 当前步骤描述，需要判断用户
+                "step_discript": "", // 当前步骤描述
                 'layout_pic': { // 户型图路径
                     'ori_path': '', // 原
                     'big_path': '', // 大
@@ -49,9 +49,12 @@
                 'designer': [ // 订单当前设计师们
                     {
                         "name": "", // 名字
-                        "objectId": int, // id
+                        "id": int, // 设计师id
                         'avatar': '', // 头像路径 120px左右那个图
                         'level': 1, // 设计师等级，1，2，3，4，5，6
+                        "step_id": 1, // 当前步骤id，设计师与订单的关联表
+                        "step_title": "", // 当前步骤标题
+                        "step_discript": "", // 当前步骤描述
                     }
                 ]
             }
@@ -60,3 +63,5 @@
         "message": "列表获取成功",
         "status": 200
     }
+
+step相关的字段是**订单主表**的数据，designer下的step相关字段是**设计师与订单的关联表**的数据
