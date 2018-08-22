@@ -1,4 +1,6 @@
-# （公司首页）获取装修公司详情: getCompanyDetail
+# 获取公司资料信息: getCompanyDetail
+
+- 公司简介页面展示，包括公司简介，工商注册信息，证书。
 
 ## 参数
 
@@ -9,49 +11,24 @@
 ## 返回数据
 
     {
-        'content': {
-            'id': // 装修公司id
-            'name': // 装修公司名字
-            'phone': // 电话
-            'credit_level': // 装修公司信用等级
-            'total_score': // 总评分
-            'praise': // 装修公司口碑
-            'design': // 装修公司设计分
-            'service': // 装修公司服务分
-            'quality': // 装修公司工程质量分
-            'project': // 装修公司工地分
-            'back_image': // 装修公司背景图路径
-            'logo': { // logo图
-                'ori_path': // 原始图路径
-                'big_path': // 大图路径
-                'mid_path': // 中图路径
-                'sml_path': // 小图路径
-            },
-            'location': {
-                'province': // 省
-                'city': // 市
-                'region': // 区
-                'address': // 地址
-            },
-            'case_num': // 案例数
-            'fans_num': // 人气数
-            'introduce': // 公司简介
-            'license': [ // 资质证书
-                {
-                    'ori_path': // 原始图路径
-                    'big_path': // 大图路径
-                    'mid_path': // 中图路径
-                    'sml_path': // 小图路径
-                }
-                // ...
-            ],
-            'service_content': {//服务
-                'type_list': Array, // id=>名称
-                'region_list': Array, // id=>名称
-                'price': String,
-                'style': Array, // id=>名称
+        "intro": "", // 公司介绍，html字符串
+        "registration": [ // 注册信息
+            {
+                "title": "", // 字段名，如：成立日期，注册资金等
+                "txt": "" // 字段值，如：2013-10-18，为完善等
             }
-        },
+            // ...
+        ],
+        "license": [ // 证书
+            {
+                "title": "", // 字段名，如：生产许可证、营业执照等
+                "photo": { // 照片路径
+                    "big": "", // 大图PC
+                    "mid": "", // 中途wap
+                }
+            }
+            // ...
+        ],
         "message": "数据获取成功!",
         "status": 200
     }
