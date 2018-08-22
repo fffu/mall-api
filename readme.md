@@ -9,12 +9,12 @@
 
 - 获取获取订单信息
 
-  - 08-22 [(任务大厅)获取订单列表](./api/getTaskList.md): getTaskList
+  - 08-22 [任务大厅获取订单列表](./api/getTaskList.md): getTaskList
   - 08-22 [获取我的订单列表](./api/getMyTaskList.md): getMyTaskList
   - 08-22 [获取订单详情](./api/getTaskProfile.md): getTaskProfile  
     以上三个返回了同样的数据模板，不同的是返回 **多条** 或 **一条**
-  - [获取订单进度详情](./api/getProcessDetail.md): getProcessDetail
-  - [(设计师)获取订单进度详情](./api/getDesignerTaskProcess.md): getDesignerTaskProcess
+  - 08-22 [获取订单进度详情](./api/getProcessDetail.md): getProcessDetail
+  - [设计师获取订单进度详情](./api/getDesignerTaskProcess.md): getDesignerTaskProcess
   <!-- - [(用户)获取订单设计详情](./api/getTaskDraft.md): getTaskDraft -->
   <!-- - [(公司)查看订单详情](./api/getCompanyTaskDetail.md): getCompanyTaskDetail -->
 

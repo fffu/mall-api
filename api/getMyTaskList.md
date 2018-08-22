@@ -1,7 +1,7 @@
 # （设计师，用户，公司公用）获取我的订单列表: getMyTaskList
 
 - 个人中心，查看我的订单
-- 08-22 增加返回字段process_title，以及设计师的进度字段，并将进度相关字段名的step改为process
+- 08-22 08-22 增加返回字段step_title，以及设计师的进度字段
 - 08-21 修改查询字段及逻辑说明
 - 08-09 getMyTaskList(获取我的订单)增加返回字段：max-need 最大抢单人数、designer[n].level 设计师的等级
 

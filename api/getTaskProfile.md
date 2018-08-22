@@ -1,7 +1,7 @@
 # 获取订单详情: getTaskProfile
 
 - 订单详情页
-- 08-22 增加返回字段process_title，以及设计师的进度字段，并将进度相关字段名的step改为process
+- 08-22 增加返回字段step_title，以及设计师的进度字段
 
 ## 参数
 

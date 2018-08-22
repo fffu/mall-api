@@ -1,4 +1,4 @@
-# （任务大厅）获取订单列表 getTaskList
+# 任务大厅获取订单列表 getTaskList
 
 - 任务大厅展示
 - 08-22 增加返回字段step_title，以及设计师的进度字段
