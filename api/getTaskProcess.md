@@ -1,4 +1,4 @@
-# 查看订单进度详情: getProcessDetail
+# 查看订单进度详情: getTaskProcess
 
 - 查询**设计师与订单的关联表**  
   以设计师为查询条件，查看订单的步骤详情  
@@ -8,8 +8,8 @@
 ## 参数
 
     {
-        "task_id": // 订单ID
-        "designer_id": // 设计师ID
+        "task_id": 1, // 订单ID
+        "designer_id": 1 // 设计师ID
     }
 
 ## 返回数据
@@ -38,6 +38,7 @@
         },
         "final_draft": { // 步骤-终稿上传，如果未进行到此步骤，请勿返回此字段
             "step_id": 1, // 步骤id,
+            "process_id": 1, // 进度id
             "room_list|8": [ // 房间列表
                 {
                     "name": "", // 房间名称 客厅，餐厅，卧室2、儿童房、玄关、书房、厨房，卫生间，阳台等
@@ -64,6 +65,7 @@
         },
         "first_draft": { // 步骤-初稿上传，如果未进行到此步骤，请勿返回此字段
             "step_id": 1, // 步骤id,
+            "process_id": 1, // 进度id
             "photo":{ // 初稿图片
                 "big": "", // 大图PC
                 "mid": "", // 中途wap

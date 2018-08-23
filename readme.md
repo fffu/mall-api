@@ -13,7 +13,7 @@
   - 08-22 [获取我的订单列表](./api/getMyTaskList.md): getMyTaskList
   - 08-22 [获取订单详情](./api/getTaskProfile.md): getTaskProfile  
     以上三个返回了同样的数据模板，不同的是返回 **多条** 或 **一条**
-  - 08-22 [获取订单进度详情](./api/getProcessDetail.md): getProcessDetail
+  - 08-23 [获取订单进度详情](./api/getTaskProcess.md): getTaskProcess
   <!-- - [设计师获取订单进度详情](./api/getDesignerTaskProcess.md): getDesignerTaskProcess -->
   <!-- - [(用户)获取订单设计详情](./api/getTaskDraft.md): getTaskDraft -->
   <!-- - [(公司)查看订单详情](./api/getCompanyTaskDetail.md): getCompanyTaskDetail -->
@@ -28,10 +28,10 @@
   - 08-10 [首页推荐设计师列表](./api/getIndexDesignerList.md): getIndexDesignerList
   - 08-17 [获取员工详情](./api/getStaffDetail.md): getStaffDetail
   - 08-18 [获取用户信息](./api/getUserInfo.md): getUserInfo
-  - 08-17 [获取案例列表](./api/getCaseList.md): getCaseList
-  - 08-16 [获取案例详情](./api/getCaseDetail.md): getCaseDetail
   - [查看工地列表](./api/getCompanyProjectList.md): getCompanyProjectList
   - 08-16 [获取在建工地列表](./api/getWorkingProjectList.md): getWorkingProjectList
+  - 08-17 [获取案例列表](./api/getCaseList.md): getCaseList
+  - 08-16 [获取案例详情](./api/getCaseDetail.md): getCaseDetail
   - 08-15 [获取装修公司活动列表](./api/getPromotionList.md): getPromotionList
 
 ## 数据操作类
