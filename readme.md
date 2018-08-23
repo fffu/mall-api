@@ -23,12 +23,12 @@
   - 08-12 [获取公司列表](./api/getCompanyList.md): getCompanyList
   - 08-12 [获取公司简要信息](./api/getCompanyProfile.md): getCompanyProfile，上面接口的单个版
   - 08-18 [获取公司资料信息](./api/getCompanyDetail.md): getCompanyDetail
-  - [公司名模糊查询](./api/getCompanyName.md): getCompanyName
+  - 08-23 [公司名模糊查询](./api/getCompanyName.md): getCompanyName
   - 08-16 [查看员工列表](./api/getStaffList.md): getStaffList
   - 08-10 [首页推荐设计师列表](./api/getIndexDesignerList.md): getIndexDesignerList
   - 08-17 [获取员工详情](./api/getStaffDetail.md): getStaffDetail
   - 08-18 [获取用户信息](./api/getUserInfo.md): getUserInfo
-  - [查看工地列表](./api/getCompanyProjectList.md): getCompanyProjectList
+  <!-- - [查看工地列表](./api/getCompanyProjectList.md): getCompanyProjectList -->
   - 08-16 [获取在建工地列表](./api/getWorkingProjectList.md): getWorkingProjectList
   - 08-17 [获取案例列表](./api/getCaseList.md): getCaseList
   - 08-16 [获取案例详情](./api/getCaseDetail.md): getCaseDetail
