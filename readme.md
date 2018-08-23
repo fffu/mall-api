@@ -12,7 +12,7 @@
   - 08-22 [任务大厅获取订单列表](./api/getTaskList.md): getTaskList
   - 08-22 [获取我的订单列表](./api/getMyTaskList.md): getMyTaskList
   - 08-22 [获取订单信息](./api/getTaskProfile.md): getTaskProfile  
-    以上三个返回了同样的数据模板，不同的是返回 **多条** 或 **一条**
+    以上三个接口返回了同样的数据模板，不同的是返回 **多条** 或 **一条**
   - 08-23 [获取订单进度与设计](./api/getTaskProcess.md): getTaskProcess
   <!-- - [设计师获取订单进度详情](./api/getDesignerTaskProcess.md): getDesignerTaskProcess -->
   <!-- - [(用户)获取订单设计详情](./api/getTaskDraft.md): getTaskDraft -->
@@ -21,7 +21,8 @@
 - 获取用户信息相关
 
   - 08-12 [获取公司列表](./api/getCompanyList.md): getCompanyList
-  - 08-12 [获取公司简要信息](./api/getCompanyProfile.md): getCompanyProfile，上面接口的单个版
+  - 08-12 [获取公司简要信息](./api/getCompanyProfile.md): getCompanyProfile  
+    以上两个接口返回了同样的数据模板，前者为 **列表版**，后者为 **单个版**
   - 08-18 [获取公司资料信息](./api/getCompanyDetail.md): getCompanyDetail
   - 08-23 [公司名模糊查询](./api/getCompanyName.md): getCompanyName
   - 08-16 [查看员工列表](./api/getStaffList.md): getStaffList
