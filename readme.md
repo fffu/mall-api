@@ -14,6 +14,7 @@
   - 08-23 [获取订单信息](./api/getTaskProfile.md): getTaskProfile  
     以上三个接口返回了同样的数据模板，不同的是返回 **列表版** 或 **单个版**
   - 08-23 [获取订单进度与设计](./api/getTaskProcess.md): getTaskProcess
+  - 08 25 [获取评价选项](./api/getReviewOption.md): getReviewOption
   <!-- - [设计师获取订单进度详情](./api/getDesignerTaskProcess.md): getDesignerTaskProcess -->
   <!-- - [(用户)获取订单设计详情](./api/getTaskDraft.md): getTaskDraft -->
   <!-- - [(公司)查看订单详情](./api/getCompanyTaskDetail.md): getCompanyTaskDetail -->
@@ -54,7 +55,7 @@
   - [用户完善订单信息(未定)](./api/improveTask.md): improveTask
   - [(设计师)抢单](./api/grabTask.md): grabTask
   - [提交方案](./api/commitDraft.md): commitDraft
-  - [(用户)选择设计方案](./api/chooseTaskDraft.md): chooseTaskDraft
+  - 08-25 [用户选择设计方案](./api/chooseTaskDraft.md): chooseTaskDraft
   - [(用户)评价](./api/commentTask.md): commentTask
   - [(公司)审核设计师的设计](./api/reviewDraft.md): reviewDraft
 
