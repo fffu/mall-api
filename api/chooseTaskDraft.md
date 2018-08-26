@@ -1,4 +1,4 @@
-# （用  户）选择设计方案: chooseTaskDraft
+# 用户选择设计方案: chooseTaskDraft
 
 - 用户在个人中心选择喜欢的方案（初稿、终稿）
 
@@ -9,7 +9,6 @@
         'process_id': Int, // 进度ID
         'isselected': Boolean // 选择||淘汰
         'explain': String // 理由
-        'process_type': // 0：初稿；1：终稿；2：施工图
     }
 
 ## 返回数据
