@@ -33,7 +33,8 @@
   - 08-16 [获取在建工地列表](./api/getWorkingProjectList.md): getWorkingProjectList
   - 08-17 [获取案例列表](./api/getCaseList.md): getCaseList
   - 08-16 [获取案例详情](./api/getCaseDetail.md): getCaseDetail
-  - 08-15 [获取装修公司活动列表](./api/getPromotionList.md): getPromotionList
+  - 08-15 [获取活动列表](./api/getPromotionList.md): getPromotionList
+  - 08-26 [获取活动详情](./api/getPromotionDetail.md): getPromotionDetail
 
 ## 数据操作类
 

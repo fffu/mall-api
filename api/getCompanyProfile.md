@@ -29,8 +29,19 @@
                     'latitude': "", // 纬度
                 },
                 'phone': "", // 公司电话
+                'fan_num': "", // 关注人数
                 'praise': int, // 口碑值
+                'design_score': int, // 设计总评分
+                'project_score': int, // 工地总评分
+                'quality_score': int, // 工程质量总评分
+                'service_score': int, // 服务总评分
+                'total_score': int, // 公司总评分
                 "avatar": "", // 头像路径 120px左右那个图
+                "logo": "", // logo路径 
+                'back_image': {
+                    "big": "", // 大图PC
+                    "mid": "", // 中图wap  
+                },
             },
             // ...
         ],
