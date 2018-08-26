@@ -6,13 +6,14 @@
 ## 参数
 
     {
-        'company_id': // 装修公司id。
+        'company_id': //默认空获取平台活动 ，公司id 存在获取装修活动。
         'keyword': // 用户查询的关键字，默认为空。
         'mark': // 默认为空 ，显示位置。
         'isrecommend': // 默认为空，获取全部；1为获取推荐的。
         'isvalid': // 默认为空，获取全部。1为获取有效期内的，2为过期的。
         'ishot': // 默认为空，获取全部。1为获取hot的。
-        'isindex': // 默认为空，获取全部。1为获取index的。（平台的字段）
+        'isindex': // 默认为空，获取全部。1为获取index的平台首页展示。（平台的字段）
+        'show_company_index': // 默认为空，获取全部。1为获取index的首页展示。（公司的字段）
         'page': // 页码
         'size': // 页长
     }
@@ -26,13 +27,18 @@
                 "title": "", // 活动标题
                 "discription": "", // 活动描述
                 "href": "", // 活动详情页地址
-                "cover": "", // 封面图路径
+                "cover": { // 封面图
+                    "big": "", // 大图PC
+                    "mid": "", // 中图wap
+                },
                 "validity": { // 有效期
                     "start": int, // 开始时间
                     "end": int, // 结束时间
                     "isValid": Boolen // 是否在有效期内
                 }
                 "view_num": int // 阅读量
+                'show_time':int //显示时长
+                'region':string //活动地区
             },
             // ...
         ],
