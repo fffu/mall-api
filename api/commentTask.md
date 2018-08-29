@@ -7,6 +7,7 @@
     {
         'id': // 订单ID
         'designer_id': // 设计师ID
+        'total_score': Int, // 总评分数
         'service_score': Int, // 服务分数
         'design_score': Int, // 设计分数
         'comment': String // 评价详情

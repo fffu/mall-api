@@ -3,8 +3,9 @@
 ## 参数
 
     {
-        'isrecommend': // 默认为空，获取全部；1为获取推荐的。
-        'isindex': // 默认为空，获取全部。1为获取index的。
+        'is_recommend': // 默认为空，获取全部；1为获取推荐的。
+        'is_index': // 默认为空，获取全部。1为获取index首页的。
+        'is_hot': // 默认为空，获取全部。1为获取热门的。
         'page': // 页码
         'size': // 页长
     }
@@ -19,9 +20,14 @@
                 "level": int, // 设计师等级
                 "work_years": int, // 从业年限
                 "concept": "", // 设计师理念
-                "photo": "", // 照片路径，大图，800px左右那张图
-                "avatar": "", // 头像路径
+                "avatar": { // 头像路径
+                    "ori":"", //原图
+                     "big": "", // 大图PC
+                     "mid": "", // 中途wap
+                     "sml": "", // 小图
+                 }, 
                 "case_num": int,// 案例数
+                "like_num": int,// 喜欢数
             },
             // ...
         ],

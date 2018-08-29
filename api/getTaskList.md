@@ -42,10 +42,10 @@
                 "step_title": "", // 当前步骤标题
                 "step_discript": "", // 当前步骤描述
                 'layout_pic': { // 户型图路径
-                    'ori_path': '', // 原
-                    'big_path': '', // 大
-                    'mid_path': '', // 中
-                    'sml_path': '', // 小
+                    'ori': '', // 原
+                    'big': '', // 大
+                    'mid': '', // 中
+                    'sml': '', // 小
                 },
                 "max-need": int, // 最大抢单人数
                 'designer': [ // 订单当前设计师们

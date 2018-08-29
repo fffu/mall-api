@@ -22,9 +22,10 @@
                 'solution': [
                     {
                         'image':{
-                            'small_path': String, // 图片路径
-                            'medium_path': String, // 图片路径
-                            'big_path': String, // 图片路径
+                            'sml': String, // 图片路径
+                            'mid': String, // 图片路径
+                            'big': String, // 图片路径
+                            'ori': String, // 图片路径
                         }
                         'part_name': // 房间名称
                         'explain': // 设计描述
