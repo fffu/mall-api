@@ -30,10 +30,10 @@
                 'work_years': // 从业年限
                 'good_style': // 擅长风格
                 'photo':{ // 设计师照片
-                    'ori_path': // 原始图路径
-                    'big_path': // 大图路径
-                    'mid_path': // 中图路径
-                    'sml_path': // 小图路径
+                    'ori': // 原始图路径
+                    'big': // 大图路径
+                    'mid': // 中图路径
+                    'sml': // 小图路径
                 },
                 'case_num': // 案例数
                 'case_list': [ // 3条案例
@@ -41,10 +41,10 @@
                         'id': // 案例id
                         'name': // 案例名
                         'cover': { // 案例封面图
-                            'ori_path': // 原始图路径
-                            'big_path': // 大图路径
-                            'mid_path': // 中图路径
-                            'sml_path': // 小图路径
+                            'ori': // 原始图路径
+                            'big': // 大图路径
+                            'mid': // 中图路径
+                            'sml': // 小图路径
                         }
                     }
                     // ...

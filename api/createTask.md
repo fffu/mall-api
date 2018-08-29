@@ -5,7 +5,7 @@
 ## 参数
 
     {
-        'designerID' Int, // 设计师ID，如果有此项，表示预约特定设计师
+        'designer_id' Int, // 设计师ID，如果有此项，表示预约特定设计师
         'area': Number, // 房屋面积
         'unit': String, // 户型
         'village': String, // 所属小区
@@ -23,7 +23,7 @@
 ## 返回数据
 
     {
-        "message": "删除图片成功!",
+        "message": "提交成功!",
         "status": 200
     }
 

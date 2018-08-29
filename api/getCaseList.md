@@ -23,9 +23,12 @@
         "case_list": [
             {
                 "id": "", // 案例id
-                "name": "", // 案例name,也许是小区名
+                "name": "", // 案例name
                 "village": "", // 小区名称
                 "costomer_name": "", // 业主姓名
+                "address": "", // 小区地址
+                "longitude": "", // 经度
+                "latitude": "", // 纬度
                 "style": "", // 案例风格
                 "unit": "", // 案例户型
                 "house_type": "", // "跃层"||"平层"||"别墅"
@@ -33,24 +36,22 @@
                 "cost": "", // 案例造价
                 "funs_num": "", // 赞数
                 "cover": { // 封面图
+                    "ori":"", //原图
                     "big": "", // 大图PC
-                    "mid": "", // 中图wap
+                    "mid": "", // 中途wap
+                    "sml": "", // 小图
                 },
                 "designer": { // 设计师
                     "id": "", //
                     "name": "", //
-                    "avatar": "", // 头像路径 120px左右那个图
+                    "avatar": {// 头像路径 
+                        "ori":"", //原图
+                        "big": "", // 大图PC
+                        "mid": "", // 中途wap
+                        "sml": "", // 小图
+                    }, 
                 },
-                "room_list|8": [ // 房间列表
-                    {
-                        "name": /客厅|餐厅|卧室[1-8]|儿童房[1-3]|书房|玄关|厨房|卫生间[1-3]|阳台[1-3]/, // 房间名称 客厅，餐厅，卧室2、儿童房、玄关、书房、厨房，卫生间，阳台等
-                        "explain": "@cparagraph", // 说明
-                        "photo": { // 图片
-                            "big": "https://source.unsplash.com/random/800x420?@natural(0,5)", // 大图PC
-                            "mid": "https://source.unsplash.com/random/375x150?@natural(0,5)", // 中途wap
-                        }
-                    }
-                ]
+                "image_num": int ,//图片张数
             }
             // ...
         ],

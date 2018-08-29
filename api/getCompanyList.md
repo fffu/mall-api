@@ -8,9 +8,9 @@
             'keyword': // 用户查询的关键字，默认为空。
             'service_type': // 家装公司、工装公司、软装公司
             'credit_level': // 信用等级
-            'ensure': // 装修保障
-            'isrecommend': // 默认空；1为推荐的公司
-            'isindex': // 默认为空，获取全部。1为获取index的。
+            'is_ensure': // 是否缴纳装修保障金
+            'is_recommend': // 默认空；1为推荐的公司
+            'is_index': // 默认为空，获取全部。1为获取index显示。
         },
         'sort': int // 1总评分\2口碑\3设计分\4服务分\5工程质量分\6工地分\（字段存在正序，不存在默认倒序）
         'page': // 页码
@@ -46,7 +46,12 @@
                 'service_score': int, // 服务分
                 'total_score': int, // 总评分
                 'fan_num': int, // 公司粉丝量
-                "avatar": "", // 头像路径 120px左右那个图
+                "avatar":{// 头像路径
+                    "ori":"", //原图
+                    "big": "", // 大图PC
+                    "mid": "", // 中途wap
+                    "sml": "", // 小图
+                }, 
             },
             // ...
         ],

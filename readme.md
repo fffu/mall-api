@@ -46,9 +46,12 @@
   - [喜欢点赞](./api/like.md): like
   - [吐槽](./api/discuss.md): discuss
   - [获取吐槽](./api/getDiscussList.md): getDiscussList
-  - [所有用户提交认证操作](./api/certificate.md): certificate
+  - [所有个人用户提交认证操作](api/personageCertificate.md): certificate
+  - [公司提交认证操作](api/companyCertificate.md): certificate
   - [认证专用上传图片](./api/certificateUpload.md): certificateUpload
   - [充值](./api/recharge.md): recharge
+  - [设计师拒单操作](./api/rejectTask.md): rejectTask
+  - [设计师上传原创案例操作](./api/createCase.md): createCase
 
 - 订单操作相关
 

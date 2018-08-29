@@ -4,7 +4,7 @@
 
     {
         'staff_id_list': Array, // 员工们的id集合
-        'isincumbent': 1||2 // 1:入职；2：在职；3.离职。
+        'is_incumbent': 1||2 // 1:入职;2.离职。
         'coin': //公司分配给设计师的虚拟币数量
     }
 
