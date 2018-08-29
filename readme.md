@@ -5,7 +5,7 @@
 
 ## 页面展示类
 
-- 08-11 [登录/注册](./api/login.md): login,register
+- 08-11 [登录/注册](./api/login.md): login,registers
 
 - 获取获取订单信息
 
